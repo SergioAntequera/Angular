@@ -1,0 +1,24 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine"
+    ]
+  },
+  "files": [
+    "src/test.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}
+
+//toma todo lo que hay en tsconfig.json y añade todas esas func.
+//o caracteristicas adicionales -> relacionado con las partes de las pruebas
+
+//Pruebas unitarias para comprobar que el codigo funciona como 
+//queremos
